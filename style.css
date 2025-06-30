@@ -12,14 +12,16 @@ body{
 }
 
 header{
-    position: absolute;
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 100;
-    background-color: transparent; 
+     background-color: #1e1e2f; 
     
 }
-
+html {
+  scroll-padding-top: 100px; /* height of your navbar */
+}
 
 /* Navigation Links */
 
